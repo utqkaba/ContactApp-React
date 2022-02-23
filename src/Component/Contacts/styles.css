@@ -1,0 +1,120 @@
+:root {
+  --colour-black: #ffb871;
+  --colour-white: #ffffff;
+  --font-family: Lato,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+  --font-size: 100%;
+}
+
+.creator {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffb871;
+}
+
+#container {
+  width: 400px;
+  background-color: #1e1e1e;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  color: #ffb871;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 12px;
+  border-radius: 8px;
+  outline: none;
+  border-color: #ffb871;
+}
+
+ul,li {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.text {
+  color: #ffb871;
+}
+
+.head {
+  color: #ffb871;
+  text-align: center;
+}
+
+.list {
+  margin: 15px 0;
+  color: #ffb871;
+}
+
+.list > li {
+  border: 2px solid #ffb871;
+  border-radius: 4px;
+  background-color: #1e1e1e;
+  padding: 5px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  padding: 5px;
+  margin-bottom: 10px;
+  height: 40px;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 0;
+}
+
+
+.button {
+  background-color: #ffb871;
+  padding: 7px;
+  width: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  animation: bn53bounce 4s infinite;
+  cursor: pointer;
+}
+
+@keyframes bn53bounce {
+  5%,
+  50% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(1);
+  }
+
+  15% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(1) rotate(-5deg);
+  }
+
+  25% {
+    transform: scale(1) rotate(5deg);
+  }
+
+  30% {
+    transform: scale(1) rotate(-3deg);
+  }
+
+  35% {
+    transform: scale(1) rotate(2deg);
+  }
+
+  40% {
+    transform: scale(1) rotate(0);
+  }
+}
